@@ -3,7 +3,7 @@
 	<data>
 		<record id="view_employee_form" model="ir.ui.view">
 			<field name="name">hr.employee.form.inherit</field>
-			<field name="model">hr.holiday.status</field>
+			<field name="model">hr.holidays.status</field>
 			<field name="type">form</field>
 			<field name="inherit_id" ref="hr.view_employee_form" />
 			<field name="arch" type="xml">
